@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#background{
+    height: 175%;
+    width: 100%;
+    background-image: linear-gradient(#43cea2, #185a9d);
+}
+#artWorkHeading{
+    color: white;
+    position: absolute;
+    top: 3%;
+    left: 45%;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 65px;
+}
+#line1{
+    height: 1px;
+    width: 9%;
+    position: absolute;
+    top: 11.3%;
+    left: 45%;
+    background-color: white;
+}
+#photo1{
+    height: 37%;
+    width: 19%;
+    background-image: url('photo23.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 16%;
+    left: 0.5%;
+}
+#photo2{
+    height: 37%;
+    width: 19%;
+    background-image: url('photo24.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 16%;
+    left: 20.5%;
+}
+#photo3{
+    height: 37%;
+    width: 19%;
+    background-image: url('photo25.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 16%;
+    left: 40.5%;
+}
+#photo4{
+    height: 37%;
+    width: 19%;
+    background-image: url('photo22.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 16%;
+    left: 60.5%;
+}
+#photo5{
+    height: 37%;
+    width: 19%;
+    background-image: url('photo19.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 16%;
+    left: 80.5%;
+}
+#photo6{
+    height: 37%;
+    width: 19%;
+    background-image: url('coverPage.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 56%;
+    left: 0.5%;
+}
+#photo7{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 56%;
+    left: 20.5%;
+}
+#photo8{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 56%;
+    left: 40.5%;
+}
+#photo9{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 56%;
+    left: 60.5%;
+}
+#photo10{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 56%;
+    left: 80.5%;
+}
+#photo11{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 96%;
+    left: 0.5%;
+}
+#photo12{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 96%;
+    left: 20.5%;
+}
+#photo13{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 96%;
+    left: 40.5%;
+}
+#photo14{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 96%;
+    left: 60.5%;
+}
+#photo15{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg15.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 96%;
+    left: 80.5%;
+}
+#photo16{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg10.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 136%;
+    left: 0.5%;
+}
+#photo17{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg11.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 136%;
+    left: 20.5%;
+}
+#photo18{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg12.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 136%;
+    left: 40.5%;
+}
+#photo19{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg13.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 136%;
+    left: 60.5%;
+}
+#photo20{
+    height: 37%;
+    width: 19%;
+    background-image: url('artWorkImg14.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 136%;
+    left: 80.5%;
+}

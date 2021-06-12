@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body {
+  height: 250%;
+  width: 100%;
+  overflow: hidden;
+}
+#background {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#cc2b5e, #753a88);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+#keychainHeading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 100px;
+  color: white;
+}
+#line1 {
+  height: 5px;
+  width: 6%;
+  position: absolute;
+  top: 56%;
+  left: 41.7%;
+  background-color: white;
+  animation: animation1 0.5s linear 1;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+@keyframes animation1 {
+  0% {
+    width: 6%;
+  }
+  100% {
+    width: 16%;
+  }
+}
+#img1{ 
+  height: 35%;
+  width: 25%;
+  background-color: black;
+  position: absolute;
+  top: 10%;
+  left: 7%;
+  background-image: url('keychain1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#img2{ 
+  height: 35%;
+  width: 25%;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  background-image: url('keychain2.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#img3{ 
+  height: 30%;
+  width: 30%;
+  background-color: black;
+  position: absolute;
+  top: 10%;
+  left: 67%;
+  background-image: url('keychain3.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+#img4{ 
+  height: 45%;
+  width: 14%;
+  background-color: black;
+  position: absolute;
+  top: 45%;
+  left: 67%;
+  background-image: url('keychain4.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+#img5{ 
+  height: 45%;
+  width: 14%;
+  background-color: black;
+  position: absolute;
+  top: 45%;
+  left: 83%;
+  background-image: url('keychain5.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}

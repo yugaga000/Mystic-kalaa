@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+form{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input[type="text"],[type="email"],[type="number"]{
+    width: 800px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 0px 30px;
+    margin-left: 100px;
+}
+textarea{
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 30px;
+    margin-left: 100px;
+    height: 30%;
+}
+input[type="submit"]{
+    padding: 13px 50px;
+    border: none;
+    background-color: rgba(112, 54, 26, 0.863);
+    color: white;
+    font-weight: 400;
+    font: 20px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#fill{
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;  
+    font-size: 100px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+#phone{
+    background-color: white;
+    font-size: 150px;
+    position: absolute;
+    top: 10%;
+    left: 110%;
+}

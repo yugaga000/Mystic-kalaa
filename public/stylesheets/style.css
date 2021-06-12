@@ -1,0 +1,874 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 250%;
+  width: 100%;
+  overflow-x: hidden;
+}
+#line3{
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  left: 87%;
+  top: 0%;
+  background-color: white;
+}
+#pageOne{
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background-image: url('coverPage.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+/* #pageOneTry{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: ;
+} */
+#logo{
+  height: 16%;
+  width: 8%;
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  background-image: url('logo1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#nav1{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+}
+#nav1{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 2%;
+  left: 64%;
+}
+#nav2{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 2%;
+  left: 72%;
+}
+#nav3{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 2%;
+  left: 79%;
+}
+#nav4{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 2%;
+  left: 84%;
+}
+#nav5{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 2%;
+  left: 92%;
+}
+#menu{
+  position: absolute;
+  top: 8%;
+  left: 90%;
+  font-size: 35px;
+  color: white;
+}
+#fb{
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  font-size: 35px;
+  color: white;
+}
+#insta{
+  position: absolute;
+  top: 90%;
+  left: 7%;
+  font-size: 35px;
+  color: white;
+  text-decoration: none;
+}
+#mail{
+  position: absolute;
+  top: 90%;
+  left: 9.3%;
+  font-size: 35px;
+  color: white;
+}
+#phone{
+  position: absolute;
+  top: 90%;
+  left: 11.6%;
+  font-size: 35px;
+  color: white;
+}
+#pink{
+  position: absolute;
+  top: 100%;
+  height: 80%;
+  width: 100%;
+  background-color: #FF0058;
+}
+#address{
+  position: absolute;
+  top: 12%;
+  left: 18%;
+  font-size: 125px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 400;
+}
+p3{
+  font-size: 30px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 47%;
+  left: 18%;
+  color: white;
+  width: 30%;
+}
+#projectLink{
+  border: 2px solid white;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 20px 48px;
+  position: absolute;
+  top: 73%;
+  left: 70%;
+  color: white;
+  font-size: 20px;
+}
+#about{
+  position: absolute;
+  top: 180%;
+  height: 120%;
+  width: 100%;
+  background-color: black;
+}
+#line{
+  height: 65%;
+  width: 5px;
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  background-color: white;
+}
+#barGraph{
+  color: rgb(85, 69, 69);
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  font-size: 450px;
+}
+h4{
+  color: teal;
+  font-size: 200px;
+  position: absolute;
+  top: 8%;
+  left: 65%;
+  font-family: 'Big Shoulders Display', cursive;
+  letter-spacing: 6px;
+}
+#line2{
+  width: 23%;
+  height: 5px;
+  position: absolute;
+  top: 28%;
+  left: 62.7%;
+  background-color: white;
+}
+p4{
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  font-size: 40px;
+  width: 30%;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Big Shoulders Display', cursive;
+}
+#art{
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  height: 80%;
+  width: 50%;
+  background-image: url('photo19.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#art2{
+  position: absolute;
+  top: 300%;
+  left: 0%;
+  height: 80%;
+  width: 50%;
+  background-color: black;
+}
+#artHeading{
+  font-size: 150px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-family: 'Big Shoulders Display', cursive;
+  color: white;
+  text-decoration: none;
+}
+p21{
+  font-size: 30px;
+  font-style: italic;
+  position: absolute;
+  top: 60%;
+  left: 24%;
+  color: white;
+  font-family: 'Big Shoulders Display', cursive; 
+}
+#design{
+  position: absolute;
+  top: 380%;
+  height: 75%;
+  width: 100%;
+  background-image: url('photo12.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#descriptionNav{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  font-family: 'Big Shoulders Display', cursive;
+}
+#aboutNav{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 30%;
+  left: 91.5%;
+  font-family: 'Big Shoulders Display', cursive;
+}
+#projectsNav{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 90.5%;
+  font-family: 'Big Shoulders Display', cursive;
+}
+#contact{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 455%;
+  background-image: linear-gradient(#c33764, #1d2671);
+}
+#contactContent{
+  height: 100%;
+  width: 40%;
+  position: absolute;
+  left: 60%;
+  background-color: #F7335D;
+}
+#shopNow{
+  color: black;
+  font-size: 90px;
+  position: absolute;
+  top: 0.5%;
+  left: 40%;
+  font-family: 'Big Shoulders Display', cursive;
+}
+#img1{
+  background-image: url('photo14.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25%;
+  width: 10%;
+  position: absolute;
+  top: 22%;
+  left: 5%;
+}
+p15{
+  font-size: 17px;
+  position: absolute;
+  top: 48%;
+  left: 7.5%;
+  color: black;
+  font-style: italic;
+  color: rgb(202, 108, 30);
+}
+#paymentA{
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  color: black;
+  font-style: italic;
+  color: rgb(202, 108, 30);
+  text-decoration: none;
+}
+#paymentA:hover{
+  color: black;
+  font-size: 19px;
+  left: 7.9%;
+}
+#img2{
+  background-image: url('photo15.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25%;
+  width: 10%;
+  position: absolute;
+  top: 22%;
+  left: 20%;
+}
+p16{
+  font-size: 17px;
+  position: absolute;
+  top: 48%;
+  left: 22.5%;
+  color: black;
+  font-style: italic;
+  color: rgb(202, 108, 30);
+}
+#paymentB{
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 23%;
+  color: black;
+  font-style: italic;
+  color: rgb(202, 108, 30);
+  text-decoration: none;
+}
+#paymentB:hover{
+  color: black;
+  font-size: 19px;
+  left: 22.9%;
+} 
+#img3{
+  background-image: url('photo16.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 28%;
+  width: 25%;
+  position: absolute;
+  top: 55%;
+  left: 5%;
+}
+#img4{
+  background-image: url('photo17.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 63%;
+  width: 20%;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+p20{
+  font-size: 20px;
+  position: absolute;
+  top: 84%;
+  left: 43%;
+  color: black;
+  font-style: italic;
+  color: rgb(202, 108, 30);
+}
+#bookView{
+  font-size: 17px;
+  position: absolute;
+  top: 86%;
+  left: 43.1%;
+  color: black;
+  font-style: italic;
+  color: rgb(202, 108, 30);
+  text-decoration: none;
+}
+#bookView:hover{
+  color: black;
+  font-size: 19px;
+  left: 42.9%;
+} 
+#buy{
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 20px 60px;
+  position: absolute;
+  top: 88%;
+  left: 25%;
+  color: black;
+  font-size: 50px;
+  font-family: 'Big Shoulders Display', cursive; 
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+#buy:hover{
+  background-color: black;
+  color: white;
+}
+#buyNow{
+  color: white;
+  font-size: 100px;
+  font-family: 'Big Shoulders Display', cursive; 
+  position: absolute;
+  top: 11%;
+  left: 35%;
+}
+#line4{
+  height: 2px;
+  width: 43%;
+  position: absolute;
+  top: 23%;
+  left: 30.8%;
+  background-color: white;
+}
+#buyContent{
+  color: white;
+  width: 70%;
+  font-size: 30px;
+  font-family: 'Big Shoulders Display', cursive; 
+  position: absolute;
+  top: 30%;
+  left: 19%;
+}
+#cart{
+  color: white;
+  opacity: 50%;
+  font-size: 150px;
+  position: absolute;
+  top: 75%;
+  left: 18%;
+}
+#tag{
+  color: white;
+  opacity: 50%;
+  font-size: 150px;
+  position: absolute;
+  top: 75%;
+  left: 45%;
+}
+#book{
+  color: white;
+  opacity: 50%;
+  font-size: 150px;
+  position: absolute;
+  top: 75%;
+  left: 70%;
+}
+#reviews{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 555%;
+  background-color: black;
+}
+h7{
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 10%;
+  left: 48%;
+  transform: translate(-50%,-50%);
+  font-family: 'Big Shoulders Display', cursive;
+}
+#line10{
+  height: 1px;
+  width: 16%;
+  background-color: white;
+  position: absolute;
+  top: 17%;
+  left: 39.6%;
+}
+#blackContent{
+  position: absolute;
+  top: 655%;
+  height: 35%;
+  width: 100%;
+  background-image: url('photo10.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#reviewImg1{
+  position: absolute;
+  top: 23%;
+  left: 3%;
+  height: 60%;
+  width: 27%;
+  background-image: url('review1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#reviewImg2{
+  position: absolute;
+  top: 23%;
+  left: 32%;
+  height: 29%;
+  width: 20%;
+  background-image: url('review2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#reviewImg3{
+  position: absolute;
+  top: 54%;
+  left: 32%;
+  height: 29%;
+  width: 20%;
+  background-image: url('review3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#reviewH1{
+  border: solid 2px white;
+  color: white;
+  padding: 24px 80px;
+  position: absolute;
+  top: 37%;
+  left: 67%;
+  border-radius: 50px;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 30px;
+  text-decoration: none;
+}
+#reviewH2{
+  border: solid 2px white;
+  color: white;
+  padding: 24px 80px;
+  position: absolute;
+  top: 54%;
+  left: 67%;
+  border-radius: 50px;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 30px;
+  text-decoration: none;
+}
+#ShopH1{
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 45px;
+  position: absolute;
+  top: 19%;
+  left: 4%;
+  color: black;
+}
+#shopP1{
+  font-size: 36px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 49%;
+  left: 7%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#ddd6f3, #faaca8);
+  font-weight: 600;
+  text-decoration: none;
+}
+#shopP2{
+  font-size: 36px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 49%;
+  left: 22%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#ddd6f3, #faaca8);
+  font-weight: 600;
+  text-decoration: none;
+}
+#shopP3{
+  font-size: 36px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 49%;
+  left:39%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#ddd6f3, #faaca8);
+  font-weight: 600;
+  text-decoration: none;
+}
+#shopP4{
+  font-size: 36px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 49%;
+  left: 53%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#ddd6f3, #faaca8);
+  font-weight: 600;
+  text-decoration: none;
+}
+#shopP5{
+  font-size: 36px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 49%;
+  left: 71%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#ddd6f3, #faaca8);
+  font-weight: 600;
+  text-decoration: none;
+}
+#shopP6{
+  font-size: 36px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 49%;
+  left: 86%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#ddd6f3, #faaca8);
+  font-weight: 600;
+  text-decoration: none;
+}
+#shopP7{
+  font-size: 36px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 92%;
+  left: 2%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#ddd6f3, #faaca8);
+  font-weight: 600;
+  text-decoration: none;
+}
+#shopP8{
+  font-size: 36px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 92%;
+  left: 17.5%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#ddd6f3, #faaca8);
+  font-weight: 600;
+  text-decoration: none;
+}
+#shopP9{
+  font-size: 36px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 92%;
+  left: 31%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#ddd6f3, #faaca8);
+  font-weight: 600;
+  text-decoration: none;
+}
+#shopP10{
+  font-size: 36px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 92%;
+  left: 45.5%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#ddd6f3, #faaca8);
+  font-weight: 600;
+  text-decoration: none;
+}
+#shopP11{
+  font-size: 36px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 92%;
+  left: 59.3%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(#ddd6f3, #faaca8);
+  font-weight: 600;
+  text-decoration: none;
+}
+#shopP12{
+  font-size: 40px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 80%;
+  left: 8%;
+  color: black;
+  font-weight: 600;
+}
+#shopP13{
+  font-size: 40px;
+  font-family: 'Big Shoulders Display', cursive;
+  position: absolute;
+  top: 85%;
+  left: 8%;
+  color: black;
+  font-weight: 600;
+}
+#posterPic1{
+  height: 32%;
+  width: 15%;
+  position: absolute;
+  top: 16%;
+  left: 2%;
+  background-image: url('posterPic1.JPG');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#notebooksPic1{
+  height: 32%;
+  width: 15%;
+  position: absolute;
+  top: 16%;
+  left: 18%;
+  background-image: url('photo17.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#stickersPic1{
+  height: 32%;
+  width: 15%;
+  position: absolute;
+  top: 16%;
+  left: 34%;
+  background-image: url('stickersPic1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bwdPic1{
+  height: 32%;
+  width: 15%;
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  background-image: url('bwdPic1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#wkPic1{
+  height: 32%;
+  width: 15%;
+  position: absolute;
+  top: 16%;
+  left: 66%;
+  background-image: url('wkPic1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bmPic1{
+  height: 32%;
+  width: 15%;
+  position: absolute;
+  top: 16%;
+  left: 82%;
+  background-image: url('bmPic1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#ciPic1{
+  height: 33%;
+  width: 12%;
+  position: absolute;
+  top: 57%;
+  left: 2%;
+  background-image: url('ciPic1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#wiasPic1{
+  height: 33%;
+  width: 12%;
+  position: absolute;
+  top: 57%;
+  left: 16%;
+  background-image: url('wiasPic1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#logoPic1{
+  height: 33%;
+  width: 12%;
+  position: absolute;
+  top: 57%;
+  left: 30%;
+  background-image: url('logoPic1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#flyerPic1{
+  height: 33%;
+  width: 12%;
+  position: absolute;
+  top: 57%;
+  left: 44%;
+  background-image: url('flyerPic1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#smPic1{
+  height: 33%;
+  width: 12%;
+  position: absolute;
+  top: 57%;
+  left: 58%;
+  background-image: url('smPic1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#readyToBuy{
+  font-size: 40px;
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+}

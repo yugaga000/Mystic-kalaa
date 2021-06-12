@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+  #background{
+      height: 825%;
+      width: 100%;
+      background-image: linear-gradient(#02aab0,  #00cdac);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+  }
+  #heading1{
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 90px;
+    color: white;
+  }
+  #line1 {
+    height: 3px;
+    width: 4%;
+    position: absolute;
+    top: 11%;
+    left: 45.5%;
+    background-color: white;
+    animation: animation1 0.5s linear 1;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes animation1 {
+    0% {
+      width: 6%;
+    }
+    100% {
+      width: 9%;
+    }
+  }
+  #img1{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    background-image: url('poster1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #price1{
+    font-size: 50px;
+    position: absolute;
+    top: 19%;
+    left: 26%;
+    color: white;
+    font-family: "Big Shoulders Display", cursive;
+    /* letter-spacing: 1px; */
+  }
+  #line2{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 19%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #line3{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 54%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img2{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    background-image: url('poster2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line4{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 89%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img3{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 90%;
+    left: 2%;
+    background-image: url('poster3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line5{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 124%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img4{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 125%;
+    left: 2%;
+    background-image: url('poster4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line6{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 159%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img5{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 160%;
+    left: 2%;
+    background-image: url('poster5.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line7{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 194%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img6{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 195%;
+    left: 2%;
+    background-image: url('poster6.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line8{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 229%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img7{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 230%;
+    left: 2%;
+    background-image: url('poster7.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line9{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 264%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img8{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 265%;
+    left: 2%;
+    background-image: url('poster8.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line10{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 299%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img9{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 300%;
+    left: 2%;
+    background-image: url('poster9.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line11{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 334%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img10{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 335%;
+    left: 2%;
+    background-image: url('poster10.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line12{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 369%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img11{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 370%;
+    left: 2%;
+    background-image: url('book11.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line13{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 404%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img12{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 405%;
+    left: 2%;
+    background-image: url('poster12.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line14{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 439%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img13{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 440%;
+    left: 2%;
+    background-image: url('poster13.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line15{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 474%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img14{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 475%;
+    left: 2%;
+    background-image: url('poster14.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line16{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 509%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img15{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 510%;
+    left: 2%;
+    background-image: url('poster15.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line17{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 544%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img16{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 545%;
+    left: 2%;
+    background-image: url('poster16.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line18{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 579%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img17{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 580%;
+    left: 2%;
+    background-image: url('poster17.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line19{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 614%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img18{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 615%;
+    left: 2%;
+    background-image: url('poster18.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line20{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 649%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img19{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 650%;
+    left: 2%;
+    background-image: url('poster19.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line21{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 684%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img20{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 685%;
+    left: 2%;
+    background-image: url('poster20.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line22{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 719%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img21{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 720%;
+    left: 2%;
+    background-image: url('poster21.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line23{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 754%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img22{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 755%;
+    left: 2%;
+    background-image: url('poster22.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line24{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 789%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img23{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 790%;
+    left: 2%;
+    background-image: url('poster23.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line25{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 824%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }

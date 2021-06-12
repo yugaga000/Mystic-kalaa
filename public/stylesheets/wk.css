@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+  #background{
+      height: 335%;
+      width: 100%;
+      background-image: linear-gradient( 67.2deg,  rgba(37,208,199,1) -7.5%, rgba(165,90,240,1) 62.7% );
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+  }
+  #heading1{
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 90px;
+    color: white;
+  }
+  #line1 {
+    height: 3px;
+    width: 4%;
+    position: absolute;
+    top: 11%;
+    left: 45.5%;
+    background-color: white;
+    animation: animation1 0.5s linear 1;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes animation1 {
+    0% {
+      width: 6%;
+    }
+    100% {
+      width: 9%;
+    }
+  }
+  #img1{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    background-image: url('wk3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #price1{
+    font-size: 50px;
+    position: absolute;
+    top: 19%;
+    left: 26%;
+    color: white;
+    font-family: "Big Shoulders Display", cursive;
+    /* letter-spacing: 1px; */
+  }
+  #line2{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 19%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #line3{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 54%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img2{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    background-image: url('wk4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line4{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 89%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img3{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 90%;
+    left: 2%;
+    background-image: url('wk5.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line5{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 124%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img4{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 125%;
+    left: 2%;
+    background-image: url('wk1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line6{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 159%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img5{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 160%;
+    left: 2%;
+    background-image: url('wk2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line7{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 194%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img6{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 195%;
+    left: 2%;
+    background-image: url('wk6.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line8{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 229%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img7{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 230%;
+    left: 2%;
+    background-image: url('wk7.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line9{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 264%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img8{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 265%;
+    left: 2%;
+    background-image: url('wk8.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line10{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 299%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  #img9{ 
+    height: 33%;
+    width: 17%;
+    background-color: black;
+    position: absolute;
+    top: 300%;
+    left: 2%;
+    background-image: url('wk9.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #line11{
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    top: 334%;
+    left: 1%;
+    background-color: rgb(192, 184, 184);
+  }
+  
